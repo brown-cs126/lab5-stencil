@@ -147,4 +147,4 @@ return parameter and the cell pointer. These get moved to the bottom of the
 stack along with the other tail-call arguments.
 
 Now, implement the other cases of `compile_expr_mod_pair`. You should have cases
-for `if`, `let`, function calls, and function calls mod pair.
+for `if`, `let`, function calls, and function calls mod pair (`(pair e (f e ...))`).
